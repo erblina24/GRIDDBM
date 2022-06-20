@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSASRaportDinamikMultidimensional_GRIDDBM", "SSASRaportDinamikMultidimensional_GRIDDBM\SSASRaportDinamikMultidimensional_GRIDDBM.dwproj", "{A3151F29-DD59-4276-8418-646F4C64AD80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3151F29-DD59-4276-8418-646F4C64AD80}.Development|Default.ActiveCfg = Development
+		{A3151F29-DD59-4276-8418-646F4C64AD80}.Development|Default.Build.0 = Development
+		{A3151F29-DD59-4276-8418-646F4C64AD80}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A360EB9-56BB-40B7-BECA-E49975BB904C}
+	EndGlobalSection
+EndGlobal

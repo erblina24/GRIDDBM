@@ -1,0 +1,209 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a3925d0c-ea36-4d82-a7da-aaf683c6786a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDBM</ID>
+  <Name>GRIDDBM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7886" scrolltop="-4282" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19876" y="8573" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="griddbm_prodhuesiB" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="4064" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000e00f000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_griddbm_prodhuesiB" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="griddbm_barnat" left="136" top="3988" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3831" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f70e00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_griddbm_barnat" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1653" top="1089" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_griddbm_barnat_griddbm_prodhuesiB]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2052" y="1588" />
+              <point x="2052" y="2788" />
+              <point x="2051" y="2788" />
+              <point x="2051" y="3988" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7886</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c5b67d37-2f88-44d0-a47f-7172e993192c">
+      <ID>Griddbm Barnat</ID>
+      <Name>Griddbm Barnat</Name>
+      <DimensionID>Griddbm Barnat</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e68de9e2-d2c9-41bc-91ee-edbdd6bb6ec0">
+          <AttributeID>ID Barna</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe3ddbd3-99eb-4513-8a1a-508524418814">
+          <AttributeID>Emri Barnes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b121e4b-c54c-402e-9556-2ea57b4edea0">
+          <AttributeID>Data Skadimit Barnes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad91ee5a-3394-4be3-a5b7-e992d3a6ac32">
+          <AttributeID>Cmimi Barnes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc461b33-52d4-4e71-a0d8-d59ecb9f885e">
+          <AttributeID>ID Prodhuesi Barnes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b7e30f2b-4400-48d7-9446-0c0e0c446091">
+          <AttributeID>Emri Prodhuesit Barnes</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ab939df8-190b-468b-9904-4bed3bac7a8e">
+      <ID>Griddbm Prodhuesi B</ID>
+      <Name>Griddbm Prodhuesi B</Name>
+      <DimensionID>Griddbm Prodhuesi B</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="daa9ea2a-eb49-4424-853c-8954a589182f">
+          <AttributeID>ID Prodhuesi Barnes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f664a79c-b7c2-4271-8e68-09999f61d768">
+          <AttributeID>Emri Prodhuesit Barnes</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="169964a8-f9a9-4235-9a1e-3162eaf9bf5e">
+      <ID>Griddbm Barnat</ID>
+      <Name>Griddbm Barnat</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="ebcee5ce-9bcd-46ba-86e6-56b0d30ae22a">
+          <ID>Cmimi Barnes</ID>
+          <Name>Cmimi Barnes</Name>
+          <Source dwd:design-time-name="3f0b0183-c279-4bb7-8e18-a126e585b855">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="787cee11-f9f2-4d65-b466-1681aed4963d">
+              <TableID>dbo_griddbm_barnat</TableID>
+              <ColumnID>CmimiBarnes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="cd63577f-4592-42a2-af5f-f6a71d03e394">
+          <CubeDimensionID>Griddbm Barnat</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="644e81da-7b4b-4a64-a72a-c49471fa071f">
+              <AttributeID>ID Barna</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9ca56079-859c-4c5d-add9-1d8dcb724860">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1d2128a-92fa-4675-b0f9-1c34ca4435fd">
+                    <TableID>dbo_griddbm_barnat</TableID>
+                    <ColumnID>ID_Barna</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="faf26400-f99e-4fe9-9950-b27749f43e74">
+          <CubeDimensionID>Griddbm Prodhuesi B</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="37b0680b-d420-4eb0-9d02-54236c9c3c4e">
+              <AttributeID>ID Prodhuesi Barnes</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="868609bc-3dfd-44c1-ac20-1056e7523a47">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc84d66b-3fad-4898-8608-499a23f04ea1">
+                    <TableID>dbo_griddbm_barnat</TableID>
+                    <ColumnID>ID_ProdhuesiBarnes</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="30ac4a35-1baf-4f93-8dcc-4b354b20c00d">
+    <DataSourceViewID>GRIDDBM</DataSourceViewID>
+  </Source>
+</Cube>

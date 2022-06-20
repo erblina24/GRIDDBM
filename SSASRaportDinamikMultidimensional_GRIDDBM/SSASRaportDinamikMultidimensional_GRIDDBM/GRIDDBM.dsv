@@ -1,0 +1,97 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ce72271e-abb1-45dd-ab33-0d32cbf97abb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDBM</ID>
+  <Name>GRIDDBM</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>GRIDDBM</DataSourceID>
+  <Schema>
+    <xs:schema id="GRIDDBM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="GRIDDBM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="5e975307-ec9c-4d92-a2dd-60f9463fb4b3">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_griddbm_barnat" msprop:design-time-name="9d76e8a9-8917-4f7b-9983-5159a53c1509" msprop:DbTableName="griddbm_barnat" msprop:FriendlyName="griddbm_barnat" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Barna" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ea64dff4-3e71-45d8-8426-21c6089fa37a" msprop:DbColumnName="ID_Barna" msprop:FriendlyName="ID_Barna" type="xs:int" />
+                  <xs:element name="EmriBarnes" msprop:design-time-name="76a45386-1d3d-400b-b19e-9c367b075e4a" msprop:DbColumnName="EmriBarnes" msprop:FriendlyName="EmriBarnes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DataSkadimitBarnes" msprop:design-time-name="5c3457e9-6694-47dd-9134-f008f40f36fd" msprop:DbColumnName="DataSkadimitBarnes" msprop:FriendlyName="DataSkadimitBarnes" type="xs:dateTime" />
+                  <xs:element name="ID_ProdhuesiBarnes" msprop:design-time-name="da01ef1f-d15f-4a44-a430-8ccada3ca8cc" msprop:DbColumnName="ID_ProdhuesiBarnes" msprop:FriendlyName="ID_ProdhuesiBarnes" type="xs:int" />
+                  <xs:element name="CmimiBarnes" msprop:design-time-name="c8d96de2-c550-4048-b59f-29b8c55de9dc" msprop:DbColumnName="CmimiBarnes" msprop:FriendlyName="CmimiBarnes" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_griddbm_prodhuesiB" msprop:design-time-name="fe2e6dc2-f489-4de2-ba2c-7dd3f82f249d" msprop:DbTableName="griddbm_prodhuesiB" msprop:FriendlyName="griddbm_prodhuesiB" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_ProdhuesiBarnes" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="6cbf6cec-362f-4af4-9424-0661804a5457" msprop:DbColumnName="ID_ProdhuesiBarnes" msprop:FriendlyName="ID_ProdhuesiBarnes" type="xs:int" />
+                  <xs:element name="EmriProdhuesitBarnes" msprop:design-time-name="fa4c9a39-5511-418e-82d8-4f29d092005a" msprop:DbColumnName="EmriProdhuesitBarnes" msprop:FriendlyName="EmriProdhuesitBarnes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddbm_barnat" />
+          <xs:field xpath="ID_Barna" />
+        </xs:unique>
+        <xs:unique name="dbo_griddbm_prodhuesiB_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddbm_prodhuesiB" />
+          <xs:field xpath="ID_ProdhuesiBarnes" />
+        </xs:unique>
+        <xs:keyref name="FK_griddbm_barnat_griddbm_prodhuesiB" refer="dbo_griddbm_prodhuesiB_Constraint1">
+          <xs:selector xpath=".//dbo_griddbm_barnat" />
+          <xs:field xpath="ID_ProdhuesiBarnes" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <GRIDDBM xmlns="" />
+  </Schema>
+</DataSourceView>

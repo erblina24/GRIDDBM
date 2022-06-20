@@ -1,0 +1,180 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="01e8a00f-8b51-403f-8680-f70e1b83e895" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Griddbm Barnat</ID>
+  <Name>Griddbm Barnat</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6275d55c-b562-4032-98f7-6f502f91039f">
+    <DataSourceViewID>GRIDDBM</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="4ed39341-0f76-4b16-bab7-6a7f43fd2dda">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="bb57e17f-a95f-4530-afd1-87ebc6d2131b">
+      <ID>ID Barna</ID>
+      <Name>ID Barna</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e9b92df-879d-4aef-9e82-3107775e84cd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0af5376e-d00a-4209-8095-6719969a35ec">
+            <TableID>dbo_griddbm_barnat</TableID>
+            <ColumnID>ID_Barna</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="da741067-9263-4056-8076-97d0d1f16bcf">
+          <AttributeID>Emri Barnes</AttributeID>
+          <Name>Emri Barnes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6532edf5-6f9d-49e8-a05a-309309830e1c">
+          <AttributeID>Data Skadimit Barnes</AttributeID>
+          <Name>Data Skadimit Barnes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="33639cf4-0456-45ba-82ed-4808da9358eb">
+          <AttributeID>Cmimi Barnes</AttributeID>
+          <Name>Cmimi Barnes</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="043242b6-f0d9-4106-b320-2a95d9bae14b">
+          <AttributeID>ID Prodhuesi Barnes</AttributeID>
+          <Name>ID Prodhuesi Barnes</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b1f700b7-9edf-4b63-b5f5-b186d2909a5a">
+      <ID>Emri Barnes</ID>
+      <Name>Emri Barnes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="67fc95f5-01a6-481c-aca1-e6d337bcdc74">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7a1ce92-219f-4510-825b-db4cceece1ac">
+            <TableID>dbo_griddbm_barnat</TableID>
+            <ColumnID>EmriBarnes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3f39f5fd-1537-4b48-bf0c-5889a013dba4">
+      <ID>Data Skadimit Barnes</ID>
+      <Name>Data Skadimit Barnes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29952b5e-857c-4440-bde3-dbb2394ca790">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6be38979-64aa-47ff-8d0b-a83b751667f4">
+            <TableID>dbo_griddbm_barnat</TableID>
+            <ColumnID>DataSkadimitBarnes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dcbfdb8a-b705-4cd7-a28a-d4823c33545e">
+      <ID>Cmimi Barnes</ID>
+      <Name>Cmimi Barnes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f54e71e3-b239-4cd3-b0dc-9cc26d5a6553">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="50b44256-f89c-4890-9745-d9288992e6e3">
+            <TableID>dbo_griddbm_barnat</TableID>
+            <ColumnID>CmimiBarnes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="41b31f56-58b9-469e-98db-14e9a53eef98">
+      <ID>ID Prodhuesi Barnes</ID>
+      <Name>ID Prodhuesi Barnes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b1961e22-48e4-4032-8423-93f134355318">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04b6ab5e-e21a-4f6a-af91-62f3f79986ea">
+            <TableID>dbo_griddbm_prodhuesiB</TableID>
+            <ColumnID>ID_ProdhuesiBarnes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="155b01e5-deb4-4d14-90b3-9547e5d0745d">
+          <AttributeID>Emri Prodhuesit Barnes</AttributeID>
+          <Name>Emri Prodhuesit Barnes</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="61f758f7-b56d-43fe-9356-b33d0f101da2">
+      <ID>Emri Prodhuesit Barnes</ID>
+      <Name>Emri Prodhuesit Barnes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3ca65759-88fe-43e1-a50a-fcddf0c316e1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c32f304-2ad8-4eb7-88bf-93e2eb8c2d8b">
+            <TableID>dbo_griddbm_prodhuesiB</TableID>
+            <ColumnID>EmriProdhuesitBarnes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

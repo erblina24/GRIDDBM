@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1738
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "SSISPaketa_GRIDDBM", "SSISPaketa_GRIDDBM\SSISPaketa_GRIDDBM.dtproj", "{AEA9B583-A558-45EC-8A21-C8A3076C36A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEA9B583-A558-45EC-8A21-C8A3076C36A1}.Development|Default.ActiveCfg = Development
+		{AEA9B583-A558-45EC-8A21-C8A3076C36A1}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66331058-41C8-41E1-BCC5-C99B99B517CE}
+	EndGlobalSection
+EndGlobal

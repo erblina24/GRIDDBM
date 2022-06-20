@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASRaportDinamikMultidimensional_GRIDDBM</Database>
+    <Server>DESKTOP-KF28819\SQL2017</Server>
+    <ConnectionString>Data Source=DESKTOP-KF28819\SQL2017;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>true</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Full</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>aKLFwiZEVEKIdfO9TMfP/z18CCY=1/24/2022 12:38:28 PM1/24/2022 12:38:28 PM</TimeStamp>
+        <ID>
+          <String>GRIDDBM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Zy64gM8Kbtvyzbqcqldjk8SHjjs=1/24/2022 12:40:46 PM1/24/2022 12:40:45 PM</TimeStamp>
+        <ID>
+          <String>GRIDDBM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sqUeuyQslAQYE4Mnd1OCJyfCyVw=1/24/2022 12:53:41 PM1/24/2022 12:53:41 PM</TimeStamp>
+        <ID>
+          <String>Griddbm Prodhuesi B</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>F5UyEQlHnjTITlIE16iyMvz8wQY=1/24/2022 12:54:18 PM1/24/2022 12:54:18 PM</TimeStamp>
+        <ID>
+          <String>Griddbm Barnat</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>4WXVYMqCcw3evkjkpheVqecItto=1/26/2022 1:36:41 PM1/24/2022 12:55:08 PM3Kkc9vCKsmfFR0YtNVFz7Xt1xeI=1/26/2022 1:16:27 PM1/24/2022 12:55:08 PM</TimeStamp>
+        <ID>
+          <String>GRIDDBM</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>hirlgloQRGCves0Me7YUZIOqLvk=1/24/2022 12:34:52 PM1/24/2022 12:32:35 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>E+9g0C/kmlIBjiKcCP+ESIJAwDc=1/24/2022 12:34:52 PM1/24/2022 12:32:00 PM</TimeStamp>
+      <ID>
+        <String>SSASRaportDinamikMultidimensional_GRIDDBM</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-01-28T22:29:42.966667Z</LastDeployed>
+</DeploymentSnapshot>
